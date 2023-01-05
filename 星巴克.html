@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script src="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.js"></script>
+
+    <script src="script.js"></script>
+	
+<!-- <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style> -->
+
+    <title>Document</title>
+</head>
+
+<body>
+<div data-role="page" data-control-title="Home" id="page1">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            StarBucks
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+        <div style=" text-align:center" data-controltype="image">
+            <img style="width: 150px; height: 150px" src="https://od.lk/s/NjJfNDU3NDUzNDZf/%E5%9C%96%E7%89%8716.png">
+        </div>
+        <ul data-role="listview" data-divider-theme="a" data-inset="true">
+            <li data-theme="a">
+                
+				<a href="#page2" data-transition="slide">
+				<img src = "https://od.lk/s/NjJfNDU3NDQxMTBf/1222876.png">
+                    關於星巴克
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page7" data-transition="slide">
+				<img src = "https://od.lk/s/NjJfNDU3NDQxMDhf/4651055.png">
+                    餐點介紹
+                </a>
+            </li>
+            <li data-theme="a">
+                <a href="#page6" data-transition="slide">
+				<img src = "https://od.lk/s/NjJfNDU3NDQxMDlf/535239.png">
+                    星巴克在哪
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            NCUT
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="about" id="page2">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Starbucks
+        </h1>
+        <a href="#page1" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div data-controltype="textblock">
+            <p style="text-align: center;">
+                <strong>
+                    星巴克Starbucks
+                </strong>
+            </p>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="" data-controltype="image">
+                    <img style="width: 288px; height: 200px" src="https://od.lk/s/NjJfNDU3NDUxMjJf/%E5%9C%96%E7%89%8715.png">
+                </div>
+            </div>
+            <div class="ui-block-b">
+            </div>
+            <div class="ui-block-a">
+                <div data-controltype="textblock">
+                    <p>
+                        提供各式咖啡商品及星冰樂、茶類飲品、甜點、鹹食，是一家複合式連鎖咖啡廳。 室內座位可讓顧客享受優閒的下午茶。
+                    </p>
+                    <p>
+                        店內 提供WI-FI 及插座充電
+                    </p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="" data-controltype="image">
+                    <img style="width: 200px; height: 200px" src="https://od.lk/s/NjJfNDU3NDUxMzFf/%E5%9C%96%E7%89%8714.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            NCUT
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="product " id="page7">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Starbucks
+        </h1>
+        <a href="#page1" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div data-role="collapsible-set">
+            <div data-role="collapsible">
+                <h3>
+                    咖啡飲品
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNDlf/%E5%9C%96%E7%89%871.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    栗香蒙布朗風味那堤
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Chestnut Mont Blanc Latte
+                                </strong>
+                            </p>
+                            <p>
+                                香滑牛奶融合了栗香白巧克力醬與星巴克經典義式濃縮，頂端是帶著義式咖啡香氣的濃縮咖啡鮮奶油，最後淋上栗香白巧克力糖醬，濃郁且平衡的美妙滋味，邀請您一同品嘗。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNTJf/%E5%9C%96%E7%89%872.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    太妃核果風味那堤
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Toffee Nut Crunch Latte
+                                </strong>
+                            </p>
+                            <p>
+                                絲滑般的現蒸牛奶加上經典濃縮咖啡與太妃核果風味糖漿，擠上香滑鮮奶油，並撒上滋味香甜的太妃蜜糖碎片，值得期待的耶誕傳統，帶來甜蜜喜悅。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    茶瓦納
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNTVf/%E5%9C%96%E7%89%873.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    抹茶那堤
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Green Tea Latte
+                                </strong>
+                            </p>
+                            <p>
+                                使用日本優質抹茶粉及鮮奶調製，馥郁茶香及滑順口感，是暢銷熱賣品項之一。 使用含糖抹茶粉製作，無法提供無糖客製化服務；飲料可加價更換奶類或添加風味糖漿，體驗不同風味
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNTlf/%E5%9C%96%E7%89%874.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    冰福吉茶那堤
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Iced Hojicha Tea Latte
+                                </strong>
+                            </p>
+                            <p>
+                                源自日本，以烤焙過的日本焙茶，與新鮮牛奶結合，濃郁滑順的口感中，富有優雅細緻的茶香，帶來舒適怡人的清新風味，讓你福氣又吉利。可加價更換奶類或添加風味糖漿，體驗不同風味
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    星冰樂
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNjNf/%E5%9C%96%E7%89%875.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    紅絲絨風味燕麥奶星冰樂
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Red Velvet Oatmilk Cream Frappuccino
+                                </strong>
+                            </p>
+                            <p>
+                                紅絲絨的星冰樂體驗，滑順鮮奶油撒上美麗紅絲絨餅乾碎粒，搭配混合紅絲絨風味甜醬的星冰樂，紅酒般微紅色澤，帶有淡淡奶油香氣的清爽滋味，是您在節日時刻務必品嘗的星冰樂體驗！
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNjlf/%E5%9C%96%E7%89%876.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    巧克力可可碎片星冰樂
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Chocolate Cream Java Chip Frappuccino® Blended Beverage
+                                </strong>
+                            </p>
+                            <p>
+                                暢銷口味之一，以摩卡醬、乳品及可可碎片調製，加上細緻鮮奶油及摩卡醬，濃厚的巧克力風味及多重口感，深獲喜愛。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    冷翠咖啡
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNzVf/%E5%9C%96%E7%89%877.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    太妃核果風味冷萃咖啡
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Toffee Nut Crunch Cold Brew Coffee
+                                </strong>
+                            </p>
+                            <p>
+                                以星巴克經典飲品太妃核果那堤作為風味延伸，經典冷萃咖啡，佐上香滑的太妃核果奶泡，並撒上滋味香甜的太妃蜜糖碎片，為冷萃咖啡愛好者帶來耶誕驚喜。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNzhf/%E5%9C%96%E7%89%878.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    香檸蜜柚冷萃咖啡
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Cold Brew Lemonade with Ruby Grapefruit and Honey
+                                </strong>
+                            </p>
+                            <p>
+                                檸檬清新的香氣，加入了紅柚醬與蜂蜜調和，更帶出冷萃咖啡本身的巧克力甘甜與柑橘的風味調性，讓柑橘類系風味完美的與咖啡結合，創造出平衡美妙的滋味。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    星沁爽
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwMjlf/%E5%9C%96%E7%89%879.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    草莓巴西莓檸檬風味星沁爽™
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Strawberry Acai with Lemonade Starbucks Refreshers
+                                </strong>
+                            </p>
+                            <p>
+                                結合了草莓和巴西莓的多層次酸甜，再融合了草莓果乾、檸檬果汁，帶給下午時刻的你，一陣清爽的能量。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    其他飲料
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwMzVf/%E5%9C%96%E7%89%8710.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    經典巧克力
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Signature Hot Chocolate
+                                </strong>
+                            </p>
+                            <p>
+                                以香醇優質的巧克力與牛奶共同蒸煮，覆上鮮奶油及可可粉，甜美濃郁的巧克力是令人無法抵抗的迷人滋味。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwMzlf/%E5%9C%96%E7%89%8711.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    兒童熱可可
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Kid's Hot Chocolate
+                                </strong>
+                            </p>
+                            <p>
+                                濃郁香甜的巧克力風味，是小朋友的最愛。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    罐裝飲料
+                </h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div style="" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNDJf/%E5%9C%96%E7%89%8712.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    草莓優格飲
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Strawberry Yogurt
+                                </strong>
+                            </p>
+                            <p>
+                                採用在地新鮮草莓耗時燉煮的果醬，搭配優格，融合果香及優格的濃郁口感，屬於季節限定的美味。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div style=" text-align:center" data-controltype="image">
+                            <img style="width: 150px; height: 200px" src="https://od.lk/s/NjJfNDU3MzkwNDZf/%E5%9C%96%E7%89%8713.png">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div data-controltype="textblock">
+                            <p>
+                                <strong>
+                                    金桔百香鮮果茶
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                    Kumquat &amp; Passion Fruit Green Tea
+                                </strong>
+                            </p>
+                            <p>
+                                使用HPP技術，保留鮮果新鮮滋味 內含清香金桔、酸甜百香果，與淡雅甘甜的茉莉綠茶，交織出迷人芳香、酸中帶甜的美好滋味，滿滿的果粒更是咀嚼系不可錯過的選擇。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            NCUT
+        </h3>
+    </div>
+</div>
+<div data-role="page" data-control-title="where" id="page6">
+    <div data-theme="b" data-role="header">
+        <h1 class="ui-title">
+            Starbucks
+        </h1>
+        <a href="#page1" class="ui-btn ui-btn-left">
+            Back
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div style=" text-align:center" data-controltype="image">
+            <img style="width: 288px; height: 200px" src="https://od.lk/s/NjJfNDU3NDcyMjVf/%E6%98%9F%E5%B7%B4%E5%85%8B.png">
+        </div>
+        <div data-controltype="textblock">
+            <p style="text-align: center;">
+                <strong>
+                    地點位於：台中市太平區中山路四段21號
+                </strong>
+            </p>
+            <p>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div data-theme="b" data-role="footer" data-position="fixed">
+        <h3 class="ui-title">
+            NCUT
+        </h3>
+    </div>
+</div>
+</body>
+
+</html>
